@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-5 gap-10 items-center">
           {/* Text content */}
           <motion.div
-            className="md:col-span-3 order-2 md:order-1 shadow-none rounded-sm opacity-100"
+            className="md:col-span-3 order-2 md:order-1 shadow-none opacity-100 rounded-none"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}>
@@ -29,7 +29,7 @@ const HeroSection = () => {
             </h1>
             <p className="text-lg text-muted-foreground mb-2">{personalInfo.title}</p>
             <p className="text-sm text-muted-foreground mb-6">{personalInfo.affiliation}</p>
-            <p className="text-base text-foreground/80 leading-relaxed mb-8 max-w-xl opacity-100 rounded-lg shadow-2xl">
+            <p className="text-base text-foreground/80 leading-relaxed mb-8 max-w-xl opacity-100 rounded-lg shadow-2xl font-semibold">
               {personalInfo.researchSummary}
             </p>
 
