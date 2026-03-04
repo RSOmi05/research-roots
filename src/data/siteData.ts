@@ -10,7 +10,7 @@ export const personalInfo = {
   headshot: "/placeholder.svg", // Replace with your photo path
   researchSummary:
     "Hello! I am Rahat, a Biomedical Engineering graduate from Khulna University of Engineering & Technology (KUET), specializing in machine learning, computational biology, and intelligent healthcare systems using natural language processing. Over the past 6 years, I have gained both technical foundation and hands-on training in AI-driven Biomedical research, demonstrated in my contributions to ten peer-reviewed publications, including Computer Methods and Programs in Biomedicine, Scientific Reports, IEEE Access, and Bioengineering. My prior research included advanced deep learning architectures, including CNNs and transformer-based models, computer vision, and computer-aided drug discovery techniques to address complex challenges in cancer therapeutics development, medical imaging, and clinical decision support.\n\nCurrently, I am serving as the Jr. Research Associate at Institution of Research, Innovation, Incubation & Commercialization (IRIIC), United International University (UIU), working to develop an advanced NLP pipeline for an AI-powered medical scribing system for streamlined clinical documentation and digital health applications for prescription counseling.",
-  cvUrl: "#", // Replace with your CV PDF link
+  cvUrl: "/Academic_CV_Rahat_Shahrior.pdf",
   email: "jane.smith@university.edu",
   officeAddress: "Room 305, William Gates Building, University of Cambridge, CB3 0FD, UK",
   socialLinks: {
