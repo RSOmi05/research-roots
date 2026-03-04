@@ -98,7 +98,7 @@ const HeroSection = () => {
           <h3 className="text-foreground mb-4 font-bold font-serif text-2xl">Research Interests</h3>
           <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">
             {aboutData.researchInterests.map((interest) =>
-            <li key={interest} className="flex items-start gap-2 bg-transparent text-base font-serif font-semibold text-slate-800">
+            <li key={interest} className="flex items-start gap-2 bg-transparent text-base text-slate-800 font-serif font-semibold text-left">
                 <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-accent shrink-0" />
                 {interest}
               </li>
