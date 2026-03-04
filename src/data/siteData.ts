@@ -31,6 +31,7 @@ export const aboutData = {
     "Computational Biology and Genomics",
     "AI for Materials Science",
     "Causal Inference and Experimental Design",
+    "Natural Language Processing",
   ],
   education: [
     { degree: "PhD in Machine Learning", institution: "Massachusetts Institute of Technology", year: "2016–2020" },
