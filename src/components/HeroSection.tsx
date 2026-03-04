@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, ExternalLink, FileText, BookOpen, GraduationCap, Wrench } from "lucide-react";
+import { Mail, Github, Linkedin, ExternalLink, FileText, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { personalInfo, aboutData } from "@/data/siteData";
 
 const socialIcons = [
@@ -48,43 +47,6 @@ const HeroSection = () => {
                   </li>
                 ))}
               </ul>
-
-              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <GraduationCap className="h-5 w-5 text-accent" /> Education
-              </h3>
-              <div className="space-y-3 mb-6">
-                {aboutData.education.map((edu) => (
-                  <div key={edu.degree} className="flex items-start gap-4 pl-2 border-l-2 border-accent/40">
-                    <div>
-                      <p className="font-medium text-foreground">{edu.degree}</p>
-                      <p className="text-sm text-muted-foreground">{edu.institution}</p>
-                      <p className="text-xs text-muted-foreground">{edu.year}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <Wrench className="h-5 w-5 text-accent" /> Skills
-              </h3>
-              <div className="grid sm:grid-cols-2 gap-4 mb-6">
-                <div>
-                  <p className="text-sm font-medium text-foreground mb-2">Technical</p>
-                  <div className="flex flex-wrap gap-2">
-                    {aboutData.skills.technical.map((s) => (
-                      <Badge key={s} variant="secondary">{s}</Badge>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <p className="text-sm font-medium text-foreground mb-2">Research Tools</p>
-                  <div className="flex flex-wrap gap-2">
-                    {aboutData.skills.research.map((s) => (
-                      <Badge key={s} variant="outline">{s}</Badge>
-                    ))}
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div className="flex flex-wrap gap-3 mb-8">
