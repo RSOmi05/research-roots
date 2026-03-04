@@ -14,10 +14,11 @@ export const personalInfo = {
   email: "jane.smith@university.edu",
   officeAddress: "Room 305, William Gates Building, University of Cambridge, CB3 0FD, UK",
   socialLinks: {
-    googleScholar: "https://scholar.google.com",
-    researchGate: "https://researchgate.net",
+    googleScholar: "https://scholar.google.com/citations?user=CaOCa9sAAAAJ&hl=en",
+    researchGate: "https://www.researchgate.net/profile/Rahat-Shahrior",
     linkedIn: "https://linkedin.com",
-    github: "https://github.com",
+    github: "https://github.com/RSOmi05",
+    orcid: "https://orcid.org/0000-0002-9173-3386",
     email: "mailto:jane.smith@university.edu",
   },
 };

@@ -6,6 +6,7 @@ import { personalInfo } from "@/data/siteData";
 const socialIcons = [
 { icon: BookOpen, href: personalInfo.socialLinks.googleScholar, label: "Google Scholar" },
 { icon: ExternalLink, href: personalInfo.socialLinks.researchGate, label: "ResearchGate" },
+{ icon: ExternalLink, href: personalInfo.socialLinks.orcid, label: "ORCID" },
 { icon: Linkedin, href: personalInfo.socialLinks.linkedIn, label: "LinkedIn" },
 { icon: Github, href: personalInfo.socialLinks.github, label: "GitHub" },
 { icon: Mail, href: personalInfo.socialLinks.email, label: "Email" }];
