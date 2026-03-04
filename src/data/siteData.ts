@@ -26,11 +26,11 @@ export const personalInfo = {
 export const aboutData = {
   biography: `Dr. Jane A. Smith is an Assistant Professor in the Department of Computer Science at the University of Cambridge. She received her PhD in Machine Learning from MIT in 2020, where her thesis on "Probabilistic Methods for Scientific Discovery" received the Outstanding Dissertation Award. Her work has been published in leading venues including NeurIPS, ICML, Nature Methods, and Science. She has received funding from the NSF, NIH, and the Royal Society, and was named a Rising Star in EECS in 2022.`,
   researchInterests: [
-    "Machine Learning for Scientific Discovery",
-    "Probabilistic Modeling and Bayesian Inference",
-    "Computational Biology and Genomics",
-    "AI for Materials Science",
-    "Causal Inference and Experimental Design",
+    "Advanced Deep Learning Architectures",
+    "AI in Drug Discovery",
+    "Computer Vision",
+    "Biomedical Image Processing",
+    "Structural Bioinformatics",
     "Natural Language Processing",
   ],
   education: [
