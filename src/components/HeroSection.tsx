@@ -34,7 +34,7 @@ const HeroSection = () => {
             {/* About Me */}
             <div id="about" className="mb-8">
               <h2 className="text-2xl font-bold text-foreground mb-4 font-display">About Me</h2>
-              <p className="text-base leading-relaxed max-w-xl font-serif text-justify mb-6 bg-primary-foreground text-red-900">
+              <p className="text-base leading-relaxed max-w-xl font-serif text-justify mb-6 bg-primary-foreground text-primary">
                 {personalInfo.researchSummary}
               </p>
 
@@ -95,10 +95,10 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}>
           
-          <h3 className="text-lg font-semibold text-foreground mb-4">Research Interests</h3>
+          <h3 className="text-foreground mb-4 font-bold font-serif text-2xl">Research Interests</h3>
           <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">
             {aboutData.researchInterests.map((interest) =>
-            <li key={interest} className="flex items-start gap-2 text-sm text-cyan-700 bg-transparent">
+            <li key={interest} className="flex items-start gap-2 bg-transparent text-base font-serif font-semibold text-slate-800">
                 <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-accent shrink-0" />
                 {interest}
               </li>
