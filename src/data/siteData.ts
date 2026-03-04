@@ -9,7 +9,7 @@ export const personalInfo = {
   affiliation: "Department of Computer Science, University of Cambridge",
   headshot: "/placeholder.svg", // Replace with your photo path
   researchSummary:
-    "My research focuses on developing novel machine learning methods for scientific discovery, with applications in computational biology and materials science. I am passionate about bridging the gap between theoretical foundations and practical impact.",
+    "Rahat Shahrior is a Biomedical Engineer and AI researcher specializing in machine learning, computational biology, and intelligent healthcare systems. His work integrates deep learning, transformer-based models, and in-silico drug discovery to address complex challenges in cancer therapeutics, medical imaging, and clinical decision support. He has published in leading peer-reviewed journals, including Computer Methods and Programs in Biomedicine, Scientific Reports, and Bioengineering. Currently, he serves as a Research Associate at United International University, contributing to a World Bank–funded AI-driven clinical documentation initiative, and works on advanced NLP systems for medication safety and digital health applications. His research aims to advance interpretable, scalable, and clinically impactful AI solutions for precision medicine.",
   cvUrl: "#", // Replace with your CV PDF link
   email: "jane.smith@university.edu",
   officeAddress: "Room 305, William Gates Building, University of Cambridge, CB3 0FD, UK",
