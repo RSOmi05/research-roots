@@ -38,15 +38,6 @@ const HeroSection = () => {
                 {personalInfo.researchSummary}
               </p>
 
-              <h3 className="text-lg font-semibold text-foreground mb-3">Research Interests</h3>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-6">
-                {aboutData.researchInterests.map((interest) => (
-                  <li key={interest} className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-accent shrink-0" />
-                    {interest}
-                  </li>
-                ))}
-              </ul>
             </div>
 
             <div className="flex flex-wrap gap-3 mb-8">
@@ -96,6 +87,24 @@ const HeroSection = () => {
             </div>
           </motion.div>
         </div>
+
+        {/* Research Interests - full width */}
+        <motion.div
+          className="mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+        >
+          <h3 className="text-lg font-semibold text-foreground mb-4">Research Interests</h3>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+            {aboutData.researchInterests.map((interest) => (
+              <li key={interest} className="flex items-start gap-2 text-sm text-muted-foreground">
+                <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-accent shrink-0" />
+                {interest}
+              </li>
+            ))}
+          </ul>
+        </motion.div>
       </div>
     </section>
   );
