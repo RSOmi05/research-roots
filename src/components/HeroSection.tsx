@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 import { personalInfo, aboutData } from "@/data/siteData";
 
 const socialIcons = [
-  { icon: BookOpen, href: personalInfo.socialLinks.googleScholar, label: "Google Scholar" },
-  { icon: ExternalLink, href: personalInfo.socialLinks.researchGate, label: "ResearchGate" },
-  { icon: ExternalLink, href: personalInfo.socialLinks.orcid, label: "ORCID" },
-  { icon: Linkedin, href: personalInfo.socialLinks.linkedIn, label: "LinkedIn" },
-  { icon: Github, href: personalInfo.socialLinks.github, label: "GitHub" },
-  { icon: Mail, href: personalInfo.socialLinks.email, label: "Email" },
-];
+{ icon: BookOpen, href: personalInfo.socialLinks.googleScholar, label: "Google Scholar" },
+{ icon: ExternalLink, href: personalInfo.socialLinks.researchGate, label: "ResearchGate" },
+{ icon: ExternalLink, href: personalInfo.socialLinks.orcid, label: "ORCID" },
+{ icon: Linkedin, href: personalInfo.socialLinks.linkedIn, label: "LinkedIn" },
+{ icon: Github, href: personalInfo.socialLinks.github, label: "GitHub" },
+{ icon: Mail, href: personalInfo.socialLinks.email, label: "Email" }];
+
 
 const HeroSection = () => {
   return (
@@ -22,8 +22,8 @@ const HeroSection = () => {
             className="md:col-span-3 order-2 md:order-1 shadow-none opacity-100 rounded-none"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
+            transition={{ duration: 0.6 }}>
+            
             <p className="text-accent font-medium mb-2 tracking-wide text-sm uppercase">​</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-3 font-display">
               {personalInfo.fullName}
@@ -34,7 +34,7 @@ const HeroSection = () => {
             {/* About Me */}
             <div id="about" className="mb-8">
               <h2 className="text-2xl font-bold text-foreground mb-4 font-display">About Me</h2>
-              <p className="text-base text-foreground/80 leading-relaxed max-w-xl font-serif text-justify mb-6">
+              <p className="text-base text-foreground/80 leading-relaxed max-w-xl font-serif text-justify mb-6 bg-cyan-50">
                 {personalInfo.researchSummary}
               </p>
 
@@ -56,18 +56,18 @@ const HeroSection = () => {
             </div>
 
             <div className="flex gap-3">
-              {socialIcons.map(({ icon: Icon, href, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="p-2 rounded-full border border-border text-muted-foreground hover:text-accent hover:border-accent transition-colors"
-                >
+              {socialIcons.map(({ icon: Icon, href, label }) =>
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="p-2 rounded-full border border-border text-muted-foreground hover:text-accent hover:border-accent transition-colors">
+                
                   <Icon className="h-4 w-4" />
                 </a>
-              ))}
+              )}
             </div>
           </motion.div>
 
@@ -76,14 +76,14 @@ const HeroSection = () => {
             className="md:col-span-2 order-1 md:order-2 flex justify-center"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
+            transition={{ duration: 0.6, delay: 0.2 }}>
+            
             <div className="w-52 h-52 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-accent/30 shadow-lg">
               <img
                 src={personalInfo.headshot}
                 alt={`${personalInfo.fullName} portrait`}
-                className="w-full h-full object-cover"
-              />
+                className="w-full h-full object-cover" />
+              
             </div>
           </motion.div>
         </div>
@@ -93,21 +93,21 @@ const HeroSection = () => {
           className="mt-12"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-        >
+          transition={{ duration: 0.5, delay: 0.3 }}>
+          
           <h3 className="text-lg font-semibold text-foreground mb-4">Research Interests</h3>
           <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-            {aboutData.researchInterests.map((interest) => (
-              <li key={interest} className="flex items-start gap-2 text-sm text-muted-foreground">
+            {aboutData.researchInterests.map((interest) =>
+            <li key={interest} className="flex items-start gap-2 text-sm text-cyan-700 bg-transparent">
                 <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-accent shrink-0" />
                 {interest}
               </li>
-            ))}
+            )}
           </ul>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
