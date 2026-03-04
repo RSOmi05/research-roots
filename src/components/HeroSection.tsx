@@ -23,13 +23,13 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}>
             
-            <p className="text-accent font-medium mb-2 tracking-wide text-sm uppercase">Welcome</p>
+            <p className="text-accent font-medium mb-2 tracking-wide text-sm uppercase">​</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-3 font-display">
               {personalInfo.fullName}
             </h1>
             <p className="text-lg text-muted-foreground mb-2">{personalInfo.title}</p>
             <p className="text-sm text-muted-foreground mb-6">{personalInfo.affiliation}</p>
-            <p className="text-base text-foreground/80 leading-relaxed mb-8 max-w-xl">
+            <p className="text-base text-foreground/80 leading-relaxed mb-8 max-w-xl opacity-100 rounded-lg shadow-2xl">
               {personalInfo.researchSummary}
             </p>
 
