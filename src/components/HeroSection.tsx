@@ -13,7 +13,7 @@ const socialIcons = [
 
 const HeroSection = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-16">
+    <section id="home" className="min-h-screen pt-16 flex-row flex items-start justify-start">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 w-full">
         <div className="grid md:grid-cols-5 gap-10 items-center">
           {/* Text content */}
@@ -29,7 +29,7 @@ const HeroSection = () => {
             </h1>
             <p className="text-lg text-muted-foreground mb-2">{personalInfo.title}</p>
             <p className="text-sm text-muted-foreground mb-6">{personalInfo.affiliation}</p>
-            <p className="text-base text-foreground/80 leading-relaxed mb-8 max-w-xl opacity-100 rounded-lg shadow-2xl font-semibold">
+            <p className="text-base text-foreground/80 leading-relaxed max-w-xl opacity-100 rounded-lg shadow-2xl font-semibold font-serif text-justify mb-[32px]">
               {personalInfo.researchSummary}
             </p>
 
