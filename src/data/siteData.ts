@@ -4,8 +4,8 @@
 // ============================================================
 
 export const personalInfo = {
-  fullName: "Dr. Jane A. Smith",
-  title: "PhD Researcher | Assistant Professor | Computational Scientist",
+  fullName: "Rahat Shahrior",
+  title: "Biomedical Engineering Graduate | AI Researcher | Computational Scientist",
   affiliation: "Department of Computer Science, University of Cambridge",
   headshot: "/placeholder.svg", // Replace with your photo path
   researchSummary:
