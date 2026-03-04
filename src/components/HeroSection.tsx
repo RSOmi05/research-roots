@@ -29,7 +29,7 @@ const HeroSection = () => {
             </h1>
             <p className="text-lg text-muted-foreground mb-2">{personalInfo.title}</p>
             <p className="text-sm text-muted-foreground mb-6">{personalInfo.affiliation}</p>
-            <p className="text-base text-foreground/80 leading-relaxed max-w-xl opacity-100 rounded-lg shadow-2xl font-semibold font-serif text-justify mb-[32px]">
+            <p className="text-base text-foreground/80 leading-relaxed max-w-xl font-semibold font-serif text-justify mb-8">
               {personalInfo.researchSummary}
             </p>
 
