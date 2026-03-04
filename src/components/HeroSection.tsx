@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-5 gap-10 items-center">
           {/* Text content */}
           <motion.div
-            className="md:col-span-3 order-2 md:order-1"
+            className="md:col-span-3 order-2 md:order-1 shadow-none rounded-sm opacity-100"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}>
