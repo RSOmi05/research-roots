@@ -11,15 +11,15 @@ export const personalInfo = {
   researchSummary:
     "Hello! I am Rahat, a Biomedical Engineering graduate from Khulna University of Engineering & Technology (KUET), specializing in machine learning, computational biology, and intelligent healthcare systems using natural language processing. Over the past 6 years, I have gained both technical foundation and hands-on training in AI-driven Biomedical research, demonstrated in my contributions to ten peer-reviewed publications, including Computer Methods and Programs in Biomedicine, Scientific Reports, IEEE Access, and Bioengineering. My prior research included advanced deep learning architectures, including CNNs and transformer-based models, computer vision, and computer-aided drug discovery techniques to address complex challenges in cancer therapeutics development, medical imaging, and clinical decision support.\n\nCurrently, I am serving as the Jr. Research Associate at Institution of Research, Innovation, Incubation & Commercialization (IRIIC), United International University (UIU), working to develop an advanced NLP pipeline for an AI-powered medical scribing system for streamlined clinical documentation and digital health applications for prescription counseling.",
   cvUrl: "/Academic_CV_Rahat_Shahrior.pdf",
-  email: "jane.smith@university.edu",
-  officeAddress: "Room 305, William Gates Building, University of Cambridge, CB3 0FD, UK",
+  email: "rahat.shahrior05@gmail.com",
+  officeAddress: "AIMS Lab, IRIIC, United International University, Dhaka.",
   socialLinks: {
     googleScholar: "https://scholar.google.com/citations?user=CaOCa9sAAAAJ&hl=en",
     researchGate: "https://www.researchgate.net/profile/Rahat-Shahrior",
     linkedIn: "https://linkedin.com",
     github: "https://github.com/RSOmi05",
     orcid: "https://orcid.org/0000-0002-9173-3386",
-    email: "mailto:jane.smith@university.edu",
+    email: "mailto:rahat.shahrior05@gmail.com",
   },
 };
 
@@ -34,8 +34,8 @@ export const aboutData = {
     "Natural Language Processing",
   ],
   education: [
-    { degree: "PhD in Machine Learning", institution: "Massachusetts Institute of Technology", year: "2016–2020" },
-    { degree: "MSc in Computer Science", institution: "Stanford University", year: "2014–2016" },
+    { degree: "BSc. in Biomedical Engineering", institution: "Massachusetts Institute of Technology", year: "2016–2020" },
+    { degree: "Higher Secondary Certificate (HSC)", institution: "Stanford University", year: "2014–2016" },
     { degree: "BSc in Mathematics", institution: "University of Oxford", year: "2010–2014" },
   ],
   skills: {
