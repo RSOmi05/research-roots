@@ -85,18 +85,18 @@ export type Publication = {
 
 export const publicationsData: Publication[] = [
   {
-    title: "Deep Generative Models for Molecular Design: A Comprehensive Survey",
-    authors: "**Smith, J.A.**, Johnson, R.K., & Williams, T.L.",
-    venue: "Nature Reviews Chemistry",
-    year: 2024,
+    title: "In-silico investigation integrated with machine learning to identify potential inhibitors targeting AKT2: Key driver of cancer cell progression and metastasis",
+    authors: "Rahat Shahrior, Salwa Tamkin, Mohammad Badhruddouza Khan, Ahmed Jebail Meraj, Hanif Bhuiyan",
+    venue: "Computer Methods and Programs in Biomedicine, Elsevier",
+    year: 2025,
     doi: "https://doi.org/10.1038/s41570-024-00001",
     pdfUrl: "#",
-    bibtex: `@article{smith2024deep,\n  title={Deep Generative Models for Molecular Design},\n  author={Smith, Jane A and Johnson, Robert K and Williams, Thomas L},\n  journal={Nature Reviews Chemistry},\n  year={2024}\n}`,
+    bibtex: `@article{shahrior2025insilico,\n  title={In-silico investigation integrated with machine learning to identify potential inhibitors targeting AKT2},\n  author={Shahrior, Rahat and Tamkin, Salwa and Khan, Mohammad Badhruddouza and Meraj, Ahmed Jebail and Bhuiyan, Hanif},\n  journal={Computer Methods and Programs in Biomedicine},\n  year={2025}\n}`,
     abstract: "This survey provides a comprehensive overview of deep generative models applied to molecular design, covering variational autoencoders, generative adversarial networks, normalizing flows, and diffusion models.",
     category: "journal",
   },
   {
-    title: "Scalable Gaussian Processes for Climate Prediction with Calibrated Uncertainty",
+    title: "Automated Diagnosis of Diabetic Retinopathy Using Deep Learning: On the Search of Segmented Retinal Blood Vessel Images for Better Performance",
     authors: "**Smith, J.A.** & Chen, M.",
     venue: "Nature Climate Change",
     year: 2023,
@@ -107,7 +107,7 @@ export const publicationsData: Publication[] = [
     category: "journal",
   },
   {
-    title: "Causal Discovery in Single-Cell Transcriptomics via Differentiable DAG Learning",
+    title: "Automated Diagnosis of Diabetic Retinopathy Using Deep Learning: On the Search of Segmented Retinal Blood Vessel Images for Better Performance",
     authors: "Lee, S., **Smith, J.A.**, & Park, H.",
     venue: "International Conference on Machine Learning (ICML)",
     year: 2023,
@@ -140,15 +140,15 @@ export const publicationsData: Publication[] = [
     category: "book",
   },
   {
-    title: "Foundation Models for Scientific Discovery: Opportunities and Challenges",
-    authors: "**Smith, J.A.**",
-    venue: "Preprint – arXiv:2024.12345",
-    year: 2024,
+    title: "Automatic detection, classification, and segmentation of sagittal MR images for diagnosing prolapsed lumbar intervertebral disc",
+    authors: "Md. Abu Sayed, G. M. Mahmudur Rahman, Md. Sherajul Islam, Md. Alimul Islam, Jeongwon Park, Hasan Ahmed, Akram Hossain, & Rahat Shahrior",
+    venue: "Scientific Reports, Nature",
+    year: 2025,
     doi: "#",
     pdfUrl: "#",
-    bibtex: `@article{smith2024foundation,\n  title={Foundation Models for Scientific Discovery},\n  author={Smith, Jane A},\n  journal={arXiv preprint},\n  year={2024}\n}`,
-    abstract: "This position paper discusses opportunities and challenges in adapting large foundation models for scientific research.",
-    category: "working",
+    bibtex: `@article{sayed2025automatic,\n  title={Automatic detection, classification, and segmentation of sagittal MR images},\n  author={Sayed, Md. Abu and Rahman, G. M. Mahmudur and others},\n  journal={Scientific Reports},\n  year={2025}\n}`,
+    abstract: "This paper presents automatic detection, classification, and segmentation of sagittal MR images for diagnosing prolapsed lumbar intervertebral disc.",
+    category: "journal",
   },
 ];
 
