@@ -33,7 +33,7 @@ const HeroSection = () => {
 
             {/* About Me */}
             <div id="about" className="mb-8">
-              <h2 className="text-2xl font-bold text-foreground mb-4 font-display">About Me</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4 font-display font-serif">About Me</h2>
               <p className="text-base leading-relaxed max-w-xl font-serif text-justify mb-6 bg-primary-foreground text-primary">
                 {personalInfo.researchSummary}
               </p>
